@@ -1,0 +1,35 @@
+{
+  "name": "node-new",
+  "version": "1.0.0",
+  "description": "practicing again",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "keywords": [],
+  "author": "tapas0382",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.9.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.1.0",
+    "mongoose": "^9.2.1",
+    "mongoose-aggregate-paginate-v2": "^1.1.4",
+    "multer": "^2.1.1",
+    "nodemon": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tapas0382/Node-Practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tapas0382/Node-Practice/issues"
+  },
+  "homepage": "https://github.com/tapas0382/Node-Practice#readme"
+}
